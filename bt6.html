@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Phiếu đăng ký tham gia chương trình khuyến mãi</title>
+	<meta description="Nguyễn Văn A là người nổi tiếng">
+	<meta keywords="Nguyen Van A,Nguyễn Văn A">
+
+	<meta charset="UTF-8">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<h1 class="name">Trang chủ của Nguyễn Văn A</h1>
+	</header>
+	<nav>
+		<ul>
+			<li class="topnav"><a href="index.html">Trang chủ</a></li>
+			<li class="topnav"><a href="sanpham.html">Sản phẩm</a></li>
+			<li class="topnav"><a href="lienhe.html">Liên hệ</a></li>
+			<li class="topnav"><a href="bt5.html">Bài tập 5</a></li>
+		</ul>
+	</nav>
+	<aside>
+		<div id="info">
+			<h2>Xin chào, tôi là A</h2>
+			<p>Tôi là sinh viên đang học HTML.</p>
+			<p>Tôi là sinh viên đang học CSS.</p>
+			<p>Tôi là sinh viên đang học Javascript.</p>
+		</div>
+		<div id="adv"><img src="/images/hinh1.jpg" width="200px" height="200px"></div>
+		<div id="stat">Thống kê truy cập</div>
+
+	</aside>
+	<main>
+		<div class="bt6">
+			<h2 class="bt6_tieude">Phiếu đăng ký tham gia chương trình khuyến mãi</h2>
+			<table border="1" width="700px">
+				<tr>
+					<td>Họ và tên</td>
+					<td><input type="text" value="Nguyễn Ngọc Quỳnh Nga"></td>
+				</tr>
+				<tr>
+					<td>Địa chỉ</td>
+					<td><input type="text" value="2Bis Hùng Vương, Q.10"></td>
+				</tr>
+				<tr>
+					<td>Điện thoại</td>
+					<td><input type="text" value="0123456789"></td>
+				</tr>
+				<tr>
+					<td>Phái</td>
+					<td><input type="radio" name="gioitinh" value="nam"> Nam <input type="radio" name="gioitinh" value="nu"> Nữ <input type="radio" name="gioitinh" value="unknown"> Không xác định </td>
+				</tr>
+				<tr>
+					<td>Nghề nghiệp</td>
+					<td>
+						<select name="nghenghiep">
+							<optgroup label="Lao động phổ thông">
+								<option>Phụ hồ</option>
+								<option>Lao công</option>
+								<option>Buôn bán tự do</option>
+							</optgroup>
+							<optgroup label="Lao động trí óc">
+								<option>Giáo viên</option>
+								<option>Kỹ sư</option>
+								<option>Bác sĩ</option>
+							</optgroup>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Chọn sản phẩm tham gia</td>
+					<td>
+						<select name="sanpham" multiple>
+							<option>Kem đánh răng</option>
+							<option>Bột giặt</option>
+							<option>Dầu gội đầu</option>
+							<option>Sữa tắm</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Số người dự đoán tham gia</td>
+					<td><input type="text" value="250000"></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: center;">
+						<button type="submit" style="margin: 5px 0 5px 0; padding: 15px; background-color: #00FA00;border: 0;cursor:zoom-out;">Đồng ý</button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: center;color: red;font-weight: 900;">
+						Bạn đã đăng ký thành công!
+					</td>
+				</tr>
+			</table>
+		</div>
+	</main>
+	<footer>Đây là chân trang web</footer>
+</body>
+<script src="/js/script.js"></script>
+
+</html>

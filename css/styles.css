@@ -202,3 +202,14 @@
         font-family: Cascadia;
         padding: 15px 0 15px 120px;
     }
+
+    /* CSS của bài tập 6 */
+    .bt6 { 
+        background-color: #FF0;
+    }
+    .bt6_tieude {
+        text-align: center;
+        color: mediumspringgreen;
+        background-color: rgb(0, 4, 255);
+    }
+    
